@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63DA66BE08B9B57CF992C42A /* Pods_UA_Banking_Assistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902E4DE2B6E57776F58A2DD3 /* Pods_UA_Banking_Assistant.framework */; };
+		843FBBC32325209900891B8E /* ExchangeRateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FBBC22325209900891B8E /* ExchangeRateVC.swift */; };
+		843FBBC6232527DC00891B8E /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FBBC5232527DC00891B8E /* MenuModel.swift */; };
+		843FBBCD23253C6600891B8E /* ExchangeRateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FBBCB23253C6600891B8E /* ExchangeRateCell.swift */; };
+		843FBBCE23253C6600891B8E /* ExchangeRateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843FBBCC23253C6600891B8E /* ExchangeRateCell.xib */; };
+		843FBBD0232544AB00891B8E /* ExchangeRateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FBBCF232544AB00891B8E /* ExchangeRateModel.swift */; };
+		843FBBD523257A3E00891B8E /* ArchiveExRateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FBBD423257A3E00891B8E /* ArchiveExRateModel.swift */; };
+		843FBBD823257BE400891B8E /* ArchiveExRateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FBBD623257BE400891B8E /* ArchiveExRateCell.swift */; };
+		843FBBD923257BE400891B8E /* ArchiveExRateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843FBBD723257BE400891B8E /* ArchiveExRateCell.xib */; };
+		843FBBDB2325818700891B8E /* ArchiveExRateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FBBDA2325818700891B8E /* ArchiveExRateVC.swift */; };
+		849AEF73232D6455004FA5C0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AEF72232D6455004FA5C0 /* MenuViewController.swift */; };
+		849AEF75232D67DF004FA5C0 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AEF74232D67DF004FA5C0 /* SlideInTransition.swift */; };
+		84DA577123266E3C004F240F /* ArchiveExRateMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA577023266E3C004F240F /* ArchiveExRateMappable.swift */; };
+		84DA577323268A8A004F240F /* InternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA577223268A8A004F240F /* InternetConnection.swift */; };
+		84E8D3D2231EC9CD007A62C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8D3D1231EC9CD007A62C9 /* AppDelegate.swift */; };
+		84E8D3D7231EC9CD007A62C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E8D3D5231EC9CD007A62C9 /* Main.storyboard */; };
+		84E8D3DA231EC9CD007A62C9 /* UA_Banking_Assistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E8D3D8231EC9CD007A62C9 /* UA_Banking_Assistant.xcdatamodeld */; };
+		84E8D3DC231EC9CE007A62C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E8D3DB231EC9CE007A62C9 /* Assets.xcassets */; };
+		84E8D3DF231EC9CE007A62C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E8D3DD231EC9CE007A62C9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D3BC86C372150E8BFC1FCA2 /* Pods-UA Banking Assistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UA Banking Assistant.release.xcconfig"; path = "Target Support Files/Pods-UA Banking Assistant/Pods-UA Banking Assistant.release.xcconfig"; sourceTree = "<group>"; };
+		843FBBC22325209900891B8E /* ExchangeRateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateVC.swift; sourceTree = "<group>"; };
+		843FBBC5232527DC00891B8E /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		843FBBCB23253C6600891B8E /* ExchangeRateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateCell.swift; sourceTree = "<group>"; };
+		843FBBCC23253C6600891B8E /* ExchangeRateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExchangeRateCell.xib; sourceTree = "<group>"; };
+		843FBBCF232544AB00891B8E /* ExchangeRateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateModel.swift; sourceTree = "<group>"; };
+		843FBBD423257A3E00891B8E /* ArchiveExRateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveExRateModel.swift; sourceTree = "<group>"; };
+		843FBBD623257BE400891B8E /* ArchiveExRateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveExRateCell.swift; sourceTree = "<group>"; };
+		843FBBD723257BE400891B8E /* ArchiveExRateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArchiveExRateCell.xib; sourceTree = "<group>"; };
+		843FBBDA2325818700891B8E /* ArchiveExRateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveExRateVC.swift; sourceTree = "<group>"; };
+		849AEF72232D6455004FA5C0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		849AEF74232D67DF004FA5C0 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
+		84DA577023266E3C004F240F /* ArchiveExRateMappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveExRateMappable.swift; sourceTree = "<group>"; };
+		84DA577223268A8A004F240F /* InternetConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnection.swift; sourceTree = "<group>"; };
+		84E8D3CE231EC9CD007A62C9 /* UA Banking Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UA Banking Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E8D3D1231EC9CD007A62C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84E8D3D6231EC9CD007A62C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E8D3D9231EC9CD007A62C9 /* UA_Banking_Assistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UA_Banking_Assistant.xcdatamodel; sourceTree = "<group>"; };
+		84E8D3DB231EC9CE007A62C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E8D3DE231EC9CE007A62C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84E8D3E0231EC9CE007A62C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902E4DE2B6E57776F58A2DD3 /* Pods_UA_Banking_Assistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UA_Banking_Assistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17E7B8B0B91F08786C835F5 /* Pods-UA Banking Assistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UA Banking Assistant.debug.xcconfig"; path = "Target Support Files/Pods-UA Banking Assistant/Pods-UA Banking Assistant.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E8D3CB231EC9CD007A62C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DA66BE08B9B57CF992C42A /* Pods_UA_Banking_Assistant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843FBBBD23251F5500891B8E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				843FBBCB23253C6600891B8E /* ExchangeRateCell.swift */,
+				843FBBCC23253C6600891B8E /* ExchangeRateCell.xib */,
+				843FBBD623257BE400891B8E /* ArchiveExRateCell.swift */,
+				843FBBD723257BE400891B8E /* ArchiveExRateCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		843FBBC4232527C600891B8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				843FBBD1232545D800891B8E /* Mappable */,
+				84DA577223268A8A004F240F /* InternetConnection.swift */,
+				843FBBC5232527DC00891B8E /* MenuModel.swift */,
+				843FBBCF232544AB00891B8E /* ExchangeRateModel.swift */,
+				843FBBD423257A3E00891B8E /* ArchiveExRateModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		843FBBC723252A8400891B8E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				849AEF74232D67DF004FA5C0 /* SlideInTransition.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		843FBBCA23253B5200891B8E /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				849AEF72232D6455004FA5C0 /* MenuViewController.swift */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+		843FBBD1232545D800891B8E /* Mappable */ = {
+			isa = PBXGroup;
+			children = (
+				84DA577023266E3C004F240F /* ArchiveExRateMappable.swift */,
+			);
+			path = Mappable;
+			sourceTree = "<group>";
+		};
+		8451641BDE1DB0751CBDBC56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				902E4DE2B6E57776F58A2DD3 /* Pods_UA_Banking_Assistant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84A82D3B23250CD800A58237 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				843FBBCA23253B5200891B8E /* SlideMenu */,
+				843FBBC22325209900891B8E /* ExchangeRateVC.swift */,
+				843FBBDA2325818700891B8E /* ArchiveExRateVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84E8D3C5231EC9CD007A62C9 = {
+			isa = PBXGroup;
+			children = (
+				84E8D3D0231EC9CD007A62C9 /* UA Banking Assistant */,
+				84E8D3CF231EC9CD007A62C9 /* Products */,
+				AE7A1DE4D4427140F0C1C100 /* Pods */,
+				8451641BDE1DB0751CBDBC56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84E8D3CF231EC9CD007A62C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E8D3CE231EC9CD007A62C9 /* UA Banking Assistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E8D3D0231EC9CD007A62C9 /* UA Banking Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				843FBBC723252A8400891B8E /* Manager */,
+				843FBBC4232527C600891B8E /* Model */,
+				843FBBBD23251F5500891B8E /* Cell */,
+				84A82D3B23250CD800A58237 /* Controllers */,
+				84E8D3D1231EC9CD007A62C9 /* AppDelegate.swift */,
+				84E8D3D5231EC9CD007A62C9 /* Main.storyboard */,
+				84E8D3DB231EC9CE007A62C9 /* Assets.xcassets */,
+				84E8D3DD231EC9CE007A62C9 /* LaunchScreen.storyboard */,
+				84E8D3E0231EC9CE007A62C9 /* Info.plist */,
+				84E8D3D8231EC9CD007A62C9 /* UA_Banking_Assistant.xcdatamodeld */,
+			);
+			path = "UA Banking Assistant";
+			sourceTree = "<group>";
+		};
+		AE7A1DE4D4427140F0C1C100 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B17E7B8B0B91F08786C835F5 /* Pods-UA Banking Assistant.debug.xcconfig */,
+				1D3BC86C372150E8BFC1FCA2 /* Pods-UA Banking Assistant.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E8D3CD231EC9CD007A62C9 /* UA Banking Assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E8D3E3231EC9CE007A62C9 /* Build configuration list for PBXNativeTarget "UA Banking Assistant" */;
+			buildPhases = (
+				A46D0523DBCEA4597ED7B03F /* [CP] Check Pods Manifest.lock */,
+				84E8D3CA231EC9CD007A62C9 /* Sources */,
+				84E8D3CB231EC9CD007A62C9 /* Frameworks */,
+				84E8D3CC231EC9CD007A62C9 /* Resources */,
+				6A0EBC96398097695DA690DA /* [CP] Embed Pods Frameworks */,
+				CACFBE43D4F4E2A3C63677A0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UA Banking Assistant";
+			productName = "UA Banking Assistant";
+			productReference = 84E8D3CE231EC9CD007A62C9 /* UA Banking Assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E8D3C6231EC9CD007A62C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Viacheslav Savitsky";
+				TargetAttributes = {
+					84E8D3CD231EC9CD007A62C9 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 84E8D3C9231EC9CD007A62C9 /* Build configuration list for PBXProject "UA Banking Assistant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E8D3C5231EC9CD007A62C9;
+			productRefGroup = 84E8D3CF231EC9CD007A62C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E8D3CD231EC9CD007A62C9 /* UA Banking Assistant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E8D3CC231EC9CD007A62C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E8D3DF231EC9CE007A62C9 /* LaunchScreen.storyboard in Resources */,
+				84E8D3DC231EC9CE007A62C9 /* Assets.xcassets in Resources */,
+				843FBBCE23253C6600891B8E /* ExchangeRateCell.xib in Resources */,
+				84E8D3D7231EC9CD007A62C9 /* Main.storyboard in Resources */,
+				843FBBD923257BE400891B8E /* ArchiveExRateCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A0EBC96398097695DA690DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UA Banking Assistant/Pods-UA Banking Assistant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UA Banking Assistant/Pods-UA Banking Assistant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UA Banking Assistant/Pods-UA Banking Assistant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A46D0523DBCEA4597ED7B03F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UA Banking Assistant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CACFBE43D4F4E2A3C63677A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UA Banking Assistant/Pods-UA Banking Assistant-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UA Banking Assistant/Pods-UA Banking Assistant-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UA Banking Assistant/Pods-UA Banking Assistant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E8D3CA231EC9CD007A62C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843FBBCD23253C6600891B8E /* ExchangeRateCell.swift in Sources */,
+				843FBBD523257A3E00891B8E /* ArchiveExRateModel.swift in Sources */,
+				84E8D3DA231EC9CD007A62C9 /* UA_Banking_Assistant.xcdatamodeld in Sources */,
+				843FBBC32325209900891B8E /* ExchangeRateVC.swift in Sources */,
+				843FBBC6232527DC00891B8E /* MenuModel.swift in Sources */,
+				84DA577123266E3C004F240F /* ArchiveExRateMappable.swift in Sources */,
+				849AEF73232D6455004FA5C0 /* MenuViewController.swift in Sources */,
+				843FBBDB2325818700891B8E /* ArchiveExRateVC.swift in Sources */,
+				84E8D3D2231EC9CD007A62C9 /* AppDelegate.swift in Sources */,
+				843FBBD0232544AB00891B8E /* ExchangeRateModel.swift in Sources */,
+				849AEF75232D67DF004FA5C0 /* SlideInTransition.swift in Sources */,
+				84DA577323268A8A004F240F /* InternetConnection.swift in Sources */,
+				843FBBD823257BE400891B8E /* ArchiveExRateCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84E8D3D5231EC9CD007A62C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E8D3D6231EC9CD007A62C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84E8D3DD231EC9CE007A62C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E8D3DE231EC9CE007A62C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E8D3E1231EC9CE007A62C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84E8D3E2231EC9CE007A62C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E8D3E4231EC9CE007A62C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17E7B8B0B91F08786C835F5 /* Pods-UA Banking Assistant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9X3NJANTM;
+				INFOPLIST_FILE = "UA Banking Assistant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Viacheslav-Savitsky.UA-Banking-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84E8D3E5231EC9CE007A62C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3BC86C372150E8BFC1FCA2 /* Pods-UA Banking Assistant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9X3NJANTM;
+				INFOPLIST_FILE = "UA Banking Assistant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Viacheslav-Savitsky.UA-Banking-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E8D3C9231EC9CD007A62C9 /* Build configuration list for PBXProject "UA Banking Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E8D3E1231EC9CE007A62C9 /* Debug */,
+				84E8D3E2231EC9CE007A62C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E8D3E3231EC9CE007A62C9 /* Build configuration list for PBXNativeTarget "UA Banking Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E8D3E4231EC9CE007A62C9 /* Debug */,
+				84E8D3E5231EC9CE007A62C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84E8D3D8231EC9CD007A62C9 /* UA_Banking_Assistant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84E8D3D9231EC9CD007A62C9 /* UA_Banking_Assistant.xcdatamodel */,
+			);
+			currentVersion = 84E8D3D9231EC9CD007A62C9 /* UA_Banking_Assistant.xcdatamodel */;
+			path = UA_Banking_Assistant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84E8D3C6231EC9CD007A62C9 /* Project object */;
+}
